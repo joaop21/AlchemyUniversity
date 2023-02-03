@@ -1,0 +1,20 @@
+{
+  "name": "sign-tx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./build/index.js",
+    "dev": "ts-node ./src/index.ts"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.18",
+    "alchemy-sdk": "^2.4.1",
+    "dotenv": "^16.0.3",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
